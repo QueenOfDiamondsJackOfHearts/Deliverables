@@ -28,7 +28,7 @@ You should always run the first block, which imports the packages needed. You sh
 
 ### Step 4. Exploring the Data Gathering folder
 
-To use this notebook, you must set your own Custom Search Engine. A tutorial can be found: here https://developers.google.com/custom-search/docs/tutorial/creatingcse. This will involve both aquiring an API key, and creating an actual search engine. There is a relatively simple console that can be used to make search engines quickly, with the ability to create an XML file to get a particularly fine tuned search engine. In the current work, I have not explored this functionality in depth, but it may be interesting. Check the Utility module (GCS_utils) for details on the functions used to create the dataset, as well as the functions used for file manipulatio.
+To use this notebook, you must set your own Custom Search Engine. A tutorial can be found: here https://developers.google.com/custom-search/docs/tutorial/creatingcse. This will involve both aquiring an API key, and creating an actual search engine. There is a relatively simple console that can be used to make search engines quickly, with the ability to create an XML file to get a particularly fine tuned search engine. In the current work, I have not explored this functionality in depth, but it may be interesting. Check the Utility module (GCS_utils) for details on the functions used to create the dataset, as well as the functions used for file manipulations.
 
 ## Notes:
 
