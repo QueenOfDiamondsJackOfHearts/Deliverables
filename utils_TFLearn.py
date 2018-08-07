@@ -1,3 +1,6 @@
+"""
+This file contains useful functions and classes to be used in the constuction, training, and evaluation of the models presented in the Transfer Learning notebook. 
+"""
 import sys
 import numpy as np
 import keras
