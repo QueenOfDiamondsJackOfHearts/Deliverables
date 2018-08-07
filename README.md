@@ -14,6 +14,8 @@ To run these notebooks you are required to have:
 * Tensorflow
 * Keras
 * google-api-python-client
+* matplotlib
+* sklearn
 
 After installing anaconda (https://conda.io/docs/user-guide/install/index.html), it is most simple to type "pip install <package>" into the terminal. This will download the dependecies for these packages globally. One could also install these packages to a specific environment using conda. 
   
