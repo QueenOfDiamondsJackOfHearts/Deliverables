@@ -26,7 +26,7 @@ The directory "model_LFS" contains the models we have trained and "Data_Set1" co
 
 ### Step 3. Use Jupyter notebook to explore the models
 
-You should always run the first block, which imports the packages needed. You should also run any function definitions you see. Other than that, the general rule of thumb is that to run a given cell, you must run the one above. This is not always the case as some tasks, like loading a pre-trained model from "model_LFS" has no real requirements except importing the necessary modules. 
+You should always run the first block, which imports the packages needed. You should also run any function definitions you see. Other than that, the general rule of thumb is that to run a given cell, you must run the one above. This is not always the case as some tasks, like loading a pre-trained model from "model_LFS" has no real requirements except importing the necessary modules. Another important point is that for the simple convolutional model, while it will train under the current conditions in the notebook, training in the notebook is generally illadvised as memory issues can become a concern. It is thus advisable to train the models in a separate script.
 
 ### Step 4. Exploring the Data Gathering folder
 
