@@ -24,7 +24,7 @@ check the associated utility file for docs and source code, or in notebook type 
     can be used to recreate  the data set used to train and evaluate the model. To use you must aquire and API key and set up 
     a custom search engine through the google api console. (see step 4 below)
     
-    Associated utility file: utils_TFLearn.py
+    Associated utility file: GCS_utils.py
 ### Models
 Model files are provide, which are prediction ready. This include some version of the simple convolutional model and the VGG16 transfer learning model with linear SVM
 
