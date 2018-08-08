@@ -1,10 +1,39 @@
 # Deliverables
 
 ## Contents 
-* Notebook on Training and Evaluating a simple convolutional model with keras
-* Notebook on building a transfer learning model using a keras pre-trained model
-* Notebook on Data Gathering
 
+### Notebooks
+For any of these notebooks, if you have a question on a function's implementation and said function is not in the notebook, 
+check the associated utility file for docs and source code, or in notebook type "\<function name\>?" to simply pull up docs. 
+
+* "First model evaluation and visualization"
+    contains training, testing, and vizualization script for the simple convolutional model, including confusion matrix,
+    showing misclassified images, and convolutional filter visualization
+    
+    Associated utility file: utils_SimCONV.py
+
+* "Transfer Learning" 
+    contains training, testing, and vizualization script for the Transfer Learning model, including confusion matrix,
+    showing misclassified images, and convolutional filter visualization. Also contains an exploration of different SVM 
+    kernels, and script for the pipeline of data => feature extractor => classifier
+    
+    Associated utility file: utils_TFLearn.py
+    
+* "Google Custom Search API"(found in data gathering) 
+    contains information on how we constructed our dataset through use of google custom search. Provides a basic script which 
+    can be used to recreate  the data set used to train and evaluate the model. To use you must aquire and API key and set up 
+    a custom search engine through the google api console. (see step 4 below)
+    
+    Associated utility file: utils_TFLearn.py
+### Models
+Model files are provide, which are prediction ready. This include some version of the simple convolutional model and the VGG16 transfer learning model with linear SVM
+
+Found in models_LFS, located in google drive
+
+### Data Set
+Data set used to train and evaluate models
+
+found in Data_Set1, located in google drive
 ## How to use 
 
 ### Step 1. Download Dependencies
