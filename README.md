@@ -1,6 +1,7 @@
-# Deliverables
+# Weather Image Classification: A Machine Learning Approach
 
 ## Contents 
+The following are different python notebooks that demonstrate the different approaches I used to approach this problem. This work was done over the course of a summer at NASA Goddard. The primary tool was keras, to create and adapt various convolutional neural networks to create a classifier to identify if an image could be "weather related". This classification could potentially be used in an evidence based approach to monitor the distributions in tweets in a given area to provide validation for remote precipitation measurement missions such as the Global Precipitation Measurement (GPM).
 
 ### Notebooks
 For any of these notebooks, if you have a question on a function's implementation and said function is not in the notebook, 
